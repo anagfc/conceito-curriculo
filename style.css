@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "jedi";
-    src: url(fonts/soloist1.ttf);
+    font-family: "jedi letters";
+    src: url(fonts/soloist.ttf);
 }
 * {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 }
 
 .name{
-    font-family: "jedi", "roboto", sans-serif;
+    font-family: "jedi letters", "roboto", sans-serif;
 }
 
 .resume-contents {
@@ -81,7 +81,7 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: "jedi", "roboto", sans-serif;
+    font-family: "jedi letters", "roboto", sans-serif;
     display: flex;
     align-items: center;
     padding-top: 3rem;
@@ -151,7 +151,7 @@ body {
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: "jedi", "roboto", sans-serif;
+    font-family: "jedi letters", "roboto", sans-serif;
     display: flex;
     align-items: center;
     padding: 2rem 0;
@@ -181,7 +181,7 @@ body {
 .education-school-name,
 .awards-company-name {
     font-size: 25px;
-    font-family: "jedi","roboto", sans-serif;
+    font-family: "jedi letters","roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #4f727a;
