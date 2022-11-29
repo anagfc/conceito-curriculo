@@ -107,7 +107,7 @@ body {
     padding-right: 1rem;
     padding-left: 1rem;
     font-size: 18px;
-    color: #F9E79F;
+    color: #ECC8AF;
 }
 
 .skills ul {
@@ -121,7 +121,6 @@ body {
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
 }
 
 .referance-name {
@@ -182,7 +181,6 @@ body {
 .awards-company-name {
     font-size: 25px;
     font-family: "jedi letters","roboto", sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #4f727a;
     padding-bottom: .4rem;
