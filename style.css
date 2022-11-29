@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "jedi";
+    src: url(fonts/soloist1.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,11 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #8FACB2;
+}
+
+.name{
+    font-family: "jedi", "roboto", sans-serif;
 }
 
 .resume-contents {
@@ -21,13 +29,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #90765e;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #4B6982;
+    background-color: #A68776;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -37,18 +45,18 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #A68776;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 8px solid #A68776;
     margin-top: 2%;
 }
 
 .name {
-    color: #D6DBDF;
+    color: #ECC8AF;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -58,7 +66,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #62503F;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -69,11 +77,11 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #ECC8AF;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: "jedi", "roboto", sans-serif;
     display: flex;
     align-items: center;
     padding-top: 3rem;
@@ -89,7 +97,7 @@ body {
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: #62503F;
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -99,7 +107,7 @@ body {
     padding-right: 1rem;
     padding-left: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #F9E79F;
 }
 
 .skills ul {
@@ -108,7 +116,7 @@ body {
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6dbdfaf;
+    color: #62503F;
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
@@ -127,7 +135,7 @@ body {
 
 .referance-profession {
     font-size: 16px;
-    color: #d6dbdfaf;
+    color: #4f727a;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -139,11 +147,11 @@ body {
 }
 
 .right-title {
-    color: #70C6C7;
+    color: #695543;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: "jedi", "roboto", sans-serif;
     display: flex;
     align-items: center;
     padding: 2rem 0;
@@ -157,7 +165,7 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #F1F8FD;
+    color: #62503F;
 }
 
 .experience-contents,
@@ -166,17 +174,17 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #62503F;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
     font-size: 25px;
-    font-weight: bold;
+    font-family: "jedi","roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #4f727a;
     padding-bottom: .4rem;
 }
 
@@ -195,7 +203,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
+    color: #4f727a;
     padding-bottom: .4rem;
 }
 
@@ -205,8 +213,15 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #a5a3a3;
+    border-left: 3px solid #4f727a;
     padding-left: 5px;
+}
+
+.education-left,
+.education-right,
+.awards-left,
+.awards-right{
+    padding-bottom: 2rem;
 }
 
 /* Media queries */
