@@ -1,4 +1,4 @@
-# anagfc.github.io
+# conceito-curriculo
 Currículo do Jornada Dev - EBAC
 
 Conceito de Currículo proposto pela EBAC para a Jornada Dev 2022
